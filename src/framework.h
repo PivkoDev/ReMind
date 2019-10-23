@@ -12,6 +12,7 @@ public:
 	Renderer();
 	
 	void init();
+	void renderOpenGL();
 
 };
 
@@ -24,3 +25,4 @@ public:
 
 // Get the position of the current value in the sequence.
 extern "C" REMIND_API void remind_init();
+extern "C" REMIND_API void remind_render();
